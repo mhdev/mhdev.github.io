@@ -3,6 +3,7 @@ nav {
   height: 100%;
   box-shadow: none;
 }
+
 nav ul {
   width: 100%;
   display: flex;
@@ -14,13 +15,14 @@ nav ul {
 .nav-wrapper {
   width: 100%;
 }
+
 nav ul li {
   float: none;
 }
 
 nav ul a {
   font-size: 1.5rem;
-  padding: 15px 25px;
+  padding: 15px 20px 20px;
 }
 
 nav ul a:hover {
@@ -31,8 +33,8 @@ i.right {
   margin-left: 3px;
 }
 
-.dropdown-content li > a,
-.dropdown-content li > span {
+.dropdown-content li>a,
+.dropdown-content li>span {
   font-size: 16px;
   color: dimgrey;
   display: block;
