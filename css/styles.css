@@ -97,6 +97,10 @@ a {
 	color: inherit;
 }
 
+nav {
+	background: var(--color-dark-gray);
+}
+
 /* MEDIA QUERIES */
 
 /* MEDIA QUERIES */
