@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" />
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Web Development</title>
+</head>
+
+<body>
+  <div class="container">
+      <!-- JAVASCRIPT DROP DOWN -->
+      <!-- <ul id="javascript" class="dropdown-content">
+         <li>
+            <a href="#">Javascript 1</a>
+         </li>
+         <li class="divider"></li>
+         <li>
+            <a href="#">Javascript 2</a>
+         </li>
+         <li class="divider"></li>
+         <li>
+            <a href="#">Javascript 3</a>
+         </li>
+      </ul> -->
+
+      <!-- WEB DEVELOPMENT DROP DOWN-->
+      <!-- <ul id="web-dev" class="dropdown-content">
+         <li>
+            <a href="#">Web Dev 1</a>
+         </li>
+         <li class="divider"></li>
+         <li>
+            <a href="#">Web Dev 2</a>
+         </li>
+         <li class="divider"></li>
+         <li>
+            <a href="#">Web Dev 3</a>
+         </li>
+      </ul> -->
+
+      <nav>
+         <div class="nav-wrapper">
+            <ul>
+               <li>
+                  <a href="index.html">Home</a>
+               </li>
+               <!-- <li>
+                  <a class="dropdown-trigger" href="#" data-target="javascript">Javascript
+                     <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+               </li> -->
+               <li>
+                  <a href="web-development.html">Web Development</a>
+               </li>
+               <li>
+                  <a href="digital-design.html">Digital Design</a>
+               </li>
+ 
+               <li>
+                  <a href="video-editing.html">Video Editing</a>
+               </li>
+ 
+            </ul>
+         </div>
+      </nav>
+
+    <div class="web-development content">
+
+          <img src="/images/web-development/desktop-1405.jpg" alt="" />
+          <img src="/images/web-development/tablet-900.jpg" alt="" />
+          <img src="/images/web-development/mobile-640.jpg" alt="" />
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown-trigger").dropdown();
+    });
+  </script>
+</body>
+
+</html>

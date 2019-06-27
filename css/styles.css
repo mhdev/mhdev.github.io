@@ -16,6 +16,7 @@ html {
   --color-gray: #777777;
   --color-dark-gray: #353535;
   --color-highlight-1: #ee6e73;
+
 }
 
 body {
@@ -36,14 +37,14 @@ body {
 .container {
   background-color: var(--color-black);
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 .content {
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  background-color: var(--color-white);
+  background-color: transparent;
 }
 
 h1,
@@ -92,57 +93,57 @@ a {
   color: inherit;
 }
 
-/* WEB DESIGN PAGE */
+/* DIGITAL DESIGN */
+/* DIGITAL DESIGN */
+/* DIGITAL DESIGN */
 
-/* WEB DESIGN PAGE */
-
-/* WEB DESIGN PAGE */
-
-.web-design {
+.digital-design {
   background: transparent;
+  width: 100%;
+  min-width: 640px;
   max-width: 825px;
   padding: 4rem 2.5rem;
 }
 
-.web-design img {
+.digital-design img {
   display: block;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 4rem;
 }
 
-.web-design img[src*="600"] {
+.digital-design img[src*="600"] {
   max-width: 600px;
 }
 
-.web-design img[src*="640"] {
+.digital-design img[src*="640"] {
   max-width: 640px;
 }
 
-.web-design img[src*="825"] {
+.digital-design img[src*="825"] {
   max-width: 825px;
 }
 
-.web-design img[src*="1000"] {
+.digital-design img[src*="1000"] {
   max-width: 1000px;
 }
 
-.web-design img[src*="1280"] {
+.digital-design img[src*="1280"] {
   max-width: 1280px;
 }
 
-.web-design .image-group {
+.digital-design .image-group {
   display: flex;
   justify-content: space-between;
 }
 
-.web-design .image-group img {
+.digital-design .image-group img {
   width: 100%;
   max-width: 600px;
 }
 
-.web-design .left-col,
-.web-design .right-col {
+.digital-design .left-col,
+.digital-design .right-col {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +166,32 @@ a {
 }
 
 .video-editing>* {
+  display: block;
   margin-bottom: 4rem;
+}
+
+/* WEB DEVELOPMENT */
+
+/* WEB DEVELOPMENT */
+
+/* WEB DEVELOPMENT */
+
+.web-development {
+  width: 100%;
+  max-width: 1405px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2.5rem;
+}
+.web-development img {
+  width: 100%;
+  margin-bottom: 20rem;
+}
+
+.web-development img[src*="tablet"],
+.web-development img[src*="mobile"] {
+  display: none;
 }
 
 /* MEDIA QUERIES */
