@@ -16,7 +16,6 @@ html {
   --color-gray: #777777;
   --color-dark-gray: #353535;
   --color-highlight-1: #ee6e73;
-
 }
 
 body {
@@ -94,7 +93,9 @@ a {
 }
 
 /* DIGITAL DESIGN */
+
 /* DIGITAL DESIGN */
+
 /* DIGITAL DESIGN */
 
 .digital-design {
@@ -184,6 +185,7 @@ a {
   align-items: center;
   padding: 4rem 2.5rem;
 }
+
 .web-development img {
   width: 100%;
   margin-bottom: 20rem;
@@ -199,3 +201,21 @@ a {
 /* MEDIA QUERIES */
 
 /* MEDIA QUERIES */
+
+@media(max-width: 900px) {
+  .web-development img[src*="desktop"] {
+    display: none;
+  }
+  .web-development img[src*="tablet"] {
+    display: block;
+  }
+}
+
+@media(max-width: 640px) {
+  .web-development img[src*="tablet"] {
+    display: none;
+  }
+  .web-development img[src*="mobile"] {
+    display: block;
+  }
+}
