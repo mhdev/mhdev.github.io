@@ -167,7 +167,7 @@ a {
   padding: 4rem 2.5rem;
 }
 
-.video-editing>* {
+.video-editing > * {
   display: block;
   margin-bottom: 4rem;
 }
@@ -180,7 +180,7 @@ a {
 
 .web-development {
   width: 100%;
-  max-width: 1405px;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +203,7 @@ a {
 
 /* MEDIA QUERIES */
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .web-development img[src*="desktop"] {
     display: none;
   }
@@ -212,7 +212,7 @@ a {
   }
 }
 
-@media(max-width: 640px) {
+@media (max-width: 640px) {
   .web-development img[src*="tablet"] {
     display: none;
   }
