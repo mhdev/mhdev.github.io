@@ -64,7 +64,7 @@ i.right {
 }
 nav ul a {
     font-size: 1.5rem;
-    padding: 10px 15px;
+    padding: 10px 0 15px;
 }
   nav ul a:hover {
     background: transparent;
