@@ -91,7 +91,20 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+.button {
+  display: block;
+  margin: 0 auto 30rem;
+  text-align: center;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 3px;
+  color: var(--color-white);
+  background-color: var(--color-dark-gray);
+  background-color: #23a0d1;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 /* DIGITAL DESIGN */
 
 /* DIGITAL DESIGN */
@@ -184,7 +197,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0rem 4rem;
+  padding: 0rem 0rem 4rem;
 }
 
 .web-development img {
@@ -218,5 +231,13 @@ a {
   }
   .web-development img[src*="mobile"] {
     display: block;
+  }
+
+  .digital-design .image-group {
+    flex-direction: column;
+  }
+  .digital-design .left-col,
+  .digital-design .right-col {
+    max-width: 100%;
   }
 }
