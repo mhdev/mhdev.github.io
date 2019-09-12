@@ -50,29 +50,31 @@ h1,
 h2 {
   font-family: "Open Sans Condensed";
   text-transform: uppercase;
+  text-align: center;
   line-height: 1.1;
   font-weight: 700;
   font-size: 5.5rem;
   color: var(--color-gray);
-  text-align: center;
   letter-spacing: 1px;
   margin: 0;
 }
 
+h1,
 h2 {
+  text-align: center;
   line-height: 1.1;
   font-size: 4rem;
-  text-align: left;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 4px;
 }
 
 p,
 .p_small {
+  text-align: center;
   line-height: 1.6;
   font-weight: 300;
   font-size: 1.7rem;
   color: var(--color-gray);
-  text-align: justify;
   padding: 0 0 1.5rem;
 }
 
@@ -99,12 +101,29 @@ a {
   max-width: 300px;
   padding: 2rem;
   border-radius: 3px;
-  color: var(--color-white);
+  color: var(--color-light-gray);
   background-color: var(--color-dark-gray);
 }
 
 .button:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* RESUME */
+
+/* RESUME */
+
+/* RESUME */
+
+.resume {
+  background: transparent;
+  width: 100%;
+  max-width: 1000px;
+  padding: 4rem 2.5rem 0;
+}
+
+.resume p:nth-of-type(2) {
+  margin-bottom: 3rem;
 }
 
 /* DIGITAL DESIGN */
