@@ -22,8 +22,9 @@ nav ul li {
 }
 
 nav ul a {
-  font-size: 1.5rem;
-  padding: 15px 20px 20px;
+  font-size: 1.7rem;
+  padding: 25px 20px 30px;
+  letter-spacing: 0.7px;
 }
 
 nav ul a:hover {
@@ -49,7 +50,13 @@ i.right {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 560px) {
+@media (max-width: 670px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
+    line-height: 64px;
+  }
   ul:not(.browser-default) {
     display: flex;
     flex-direction: column;
@@ -62,8 +69,8 @@ i.right {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
   nav ul a {
-    font-size: 1.5rem;
-    padding: 1px 0 6px;
+    font-size: 1.7rem;
+    padding: 11px 0 16px;
   }
   nav ul a:hover {
     background: transparent;
