@@ -336,6 +336,47 @@ a {
   }
 }
 
+@media (max-width: 760px) {
+  .resume-top {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+  }
+  .resume-top-right {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .resume-top h1 {
+    line-height: 1.1;
+  }
+  .resume-top h1,
+  .resume-top h2,
+  .resume-top h3,
+  .resume-top p,
+  .resume-bottom h1,
+  .resume-bottom h2,
+  .resume-bottom h3,
+  .resume-bottom p {
+    text-align: center;
+  }
+  .resume-bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+  }
+  .resume-bottom-left,
+  .resume-bottom-right {
+    width: 100%;
+    padding: 0;
+  }
+  .education {
+    margin-bottom: 5rem;
+  }
+}
+
 @media (max-width: 640px) {
   .web-development img[src*="tablet"] {
     display: none;
